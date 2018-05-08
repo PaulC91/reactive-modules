@@ -7,3 +7,7 @@ When the user selects a different tab from the menu, the functions in the global
 This could be useful for apps that use lots of modules across several pages, reducing the number of functions required in memory at any one time.
 
 You can run this app locally with `shiny::runGitHub(repo = "PaulC91/reactive-modules")`
+
+# TODO
+
+* Find method for sourcing/removing/calling modules from within each session environment
