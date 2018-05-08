@@ -1,10 +1,9 @@
-# A simple module that captializes input text
+# A simple module that square roots slider input number
 module2UI <- function(id) {
   ns <- NS(id)
   wellPanel(
-    h4("This module will show the square root of the input number"),
-    numericInput(ns("num"), label = "", value = 4),
-    #textInput(ns("txt"), "Enter text:"),
+    h4("This module will show the square root of the slider input number"),
+    sliderInput(ns("num"), label = "", min = 1, max = 100, value = 50),
     verbatimTextOutput(ns("out"))
   )
 }
