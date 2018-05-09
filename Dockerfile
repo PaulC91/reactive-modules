@@ -7,6 +7,3 @@ RUN Rscript -e "install.packages(c('rlang', 'shinydashboard'), repos='https://cr
 
 ## assume shiny app is in build folder /app2
 COPY ./app /srv/shiny-server/docker-test/
-
-## updated config file
-COPY ./shiny-server.conf /etc/shiny-server/shiny-server.conf
