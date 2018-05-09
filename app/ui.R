@@ -15,7 +15,9 @@ dashboardPage(
     
     tags$hr(),
     
-    uiOutput("globalenv")
+    uiOutput("globalenv"),
+    
+    helpText("app by ", a("Paul Campbell", href="https://twitter.com/paulcampbell91", target="_blank"))
   ),
   
   dashboardBody(
