@@ -17,7 +17,9 @@ dashboardPage(
     
     uiOutput("globalenv"),
     
-    helpText("app by ", a("Paul Campbell", href="https://twitter.com/paulcampbell91", target="_blank"))
+    div(style="padding: 20px;",
+      helpText("app by ", a("Paul Campbell", href="https://twitter.com/paulcampbell91", target="_blank"))
+    )
   ),
   
   dashboardBody(
