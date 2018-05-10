@@ -23,6 +23,10 @@ dashboardPage(
   ),
   
   dashboardBody(
+    tags$head(
+      includeHTML("meta.html")
+    ),
+    
     uiOutput("moduleUI")
   )
   
